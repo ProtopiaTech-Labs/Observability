@@ -58,7 +58,7 @@ Wiedząc, że Tempo [działa na kolumnach](https://grafana.com/blog/2024/01/22/a
 Możliwe jest określenie następujących relacji:
 - `{ .service.name = "BasketAPI" } && { .service.name="Web.Status" }` - znajdzie tracy które zawierają spany z `BasketAPI` i `Web.Status`. Bez określania ich relacji między nimi.
 - `{ .service.name = "BasketAPI" } || { .service.name="Web.Status" }` - znajdzie tracy które zawierają spany z `BasketAPI` lub `Web.Status`. Bez określania ich relacji między nimi.
-  - `{ .service.name="Web.Status" } >> { .service.name = "Identity.API" }` -  `Identity.API` jest dzieckiem `Web.Status`, ale **niekoniecznie** bezpośrednim.
+- `{ .service.name="Web.Status" } >> { .service.name = "Identity.API" }` -  `Identity.API` jest dzieckiem `Web.Status`, ale **niekoniecznie** bezpośrednim.
 - `{ .service.name="Web.Bff" }  ~ { .service.name="Ordering.API" }` - `Web.Bff` i `Ordering.API` mają tego samego bezpośredniego rodzica
 
 ## 1.6 Pipeliny
