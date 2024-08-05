@@ -286,8 +286,8 @@ Dla wszystkich wykresów legenda powinna pokazywa nazwę aplikacji. Z tym, że d
 
 ### 4.6 Ile jakich logów
 **🎯Cel**:
-ZAimportuj do Grafany dashboard `Demo dashboard`Stwórz w dashboard `Otel` znajduje się wykres `SERWIS Log entries by Severity`.
-Uzupełnij go tak, żeby pokazywał w formie tabeli informacje ile logów jakiego typu serwis produkuje. Czyli coś takiego (bez dodatkowych kwerend):
+Zaimportuj do Grafany [ten dashboard](Dashboard.json) zmieniając nazwę i unikalny ID.
+Uzupełnij go tak, żeby pokazywał w formie tabeli informacje ile logów jakiego typu serwis produkuje:
 
 | Log level | Total |
 |---        |---    |
